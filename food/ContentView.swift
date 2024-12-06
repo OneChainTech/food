@@ -157,12 +157,13 @@ struct RestaurantListView: View {
                 }
             } else {
                 ScrollView {
-                    LazyVGrid(columns: [GridItem(.flexible())], spacing: 20) {
-                        ForEach(viewModel.restaurants) { restaurant in
+                    LazyVGrid(columns: [GridItem(.flexible())], spacing: 16) {
+                        ForEach(viewModel.restaurants.prefix(3)) { restaurant in
                             RestaurantCard(restaurant: restaurant)
+                                .frame(height: UIScreen.main.bounds.height * 0.25)
                         }
                     }
-                    .padding(.vertical)
+                    .padding(.vertical, 8)
                 }
                 .refreshable {
                     locationService.startUpdatingLocation()
