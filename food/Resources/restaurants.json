@@ -1,0 +1,59 @@
+{
+    "restaurants": [
+        {
+            "id": "1",
+            "name": "优味快餐",
+            "type": "fastFood",
+            "address": "创新大厦1层",
+            "latitude": 31.2304,
+            "longitude": 121.4737,
+            "rating": 4.5,
+            "priceLevel": "¥¥",
+            "openTime": "10:00-22:00"
+        },
+        {
+            "id": "2",
+            "name": "寿司一番",
+            "type": "japanese",
+            "address": "科技园B区2号楼",
+            "latitude": 31.2314,
+            "longitude": 121.4747,
+            "rating": 4.8,
+            "priceLevel": "¥¥¥",
+            "openTime": "11:00-21:30"
+        },
+        {
+            "id": "3",
+            "name": "星巴克咖啡",
+            "type": "coffee",
+            "address": "创新大厦对面",
+            "latitude": 31.2324,
+            "longitude": 121.4727,
+            "rating": 4.6,
+            "priceLevel": "¥¥¥",
+            "openTime": "07:00-22:00"
+        },
+        {
+            "id": "4",
+            "name": "老街川菜",
+            "type": "chinese",
+            "address": "科技园C区美食街",
+            "latitude": 31.2334,
+            "longitude": 121.4717,
+            "rating": 4.7,
+            "priceLevel": "¥¥",
+            "openTime": "10:30-21:00"
+        },
+        {
+            "id": "5",
+            "name": "意大利风味",
+            "type": "western",
+            "address": "创新大厦2层",
+            "latitude": 31.2344,
+            "longitude": 121.4707,
+            "rating": 4.4,
+            "priceLevel": "¥¥¥¥",
+            "openTime": "11:30-22:00"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "nickname": "小明",
+            "gender": "male",
+            "avatar": "avatar1",
+            "preferences": ["日料", "咖啡"],
+            "latitude": 31.2304,
+            "longitude": 121.4737
+        },
+        {
+            "id": "2",
+            "nickname": "小红",
+            "gender": "female",
+            "avatar": "avatar2",
+            "preferences": ["中餐", "西餐"],
+            "latitude": 31.2314,
+            "longitude": 121.4747
+        },
+        {
+            "id": "3",
+            "nickname": "小张",
+            "gender": "male",
+            "avatar": "avatar3",
+            "preferences": ["快餐", "咖啡"],
+            "latitude": 31.2324,
+            "longitude": 121.4727
+        },
+        {
+            "id": "4",
+            "nickname": "小李",
+            "gender": "female",
+            "avatar": "avatar4",
+            "preferences": ["日料", "西餐"],
+            "latitude": 31.2334,
+            "longitude": 121.4717
+        },
+        {
+            "id": "5",
+            "nickname": "小王",
+            "gender": "male",
+            "avatar": "avatar5",
+            "preferences": ["中餐", "快餐"],
+            "latitude": 31.2344,
+            "longitude": 121.4707
+        }
+    ]
+}
